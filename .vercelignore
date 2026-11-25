@@ -1,0 +1,11 @@
+# Ignore node_modules to force fresh install
+node_modules/
+
+# Ignore build cache
+.next/
+.vercel/
+
+# Ignore lock files to ensure fresh dependency resolution
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
